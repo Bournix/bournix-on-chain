@@ -11,7 +11,7 @@ with io.open("src/bournix/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = "(.*?)"', f.read()).group(1)
 
 setup(
-    name="bournix",
+    name="cutter-plier",
     version=version,
     description="Bournix team utils for django",
     long_description=readme,
